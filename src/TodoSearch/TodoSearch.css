@@ -1,0 +1,32 @@
+.TodoSearch {
+  background: #F9FBFC;
+  border-radius: 2px;
+  border: 2px solid #202329;
+  height: 40px;  
+  font-size: 24px;
+  text-align: center;  
+  color: #1E1E1F;
+  font-family: "Montserrat"; 
+  box-shadow: 0px 2px 10px rgba(32, 35, 41, 0.25);
+}
+
+.Div_Search,
+.TodoSearch{  
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Div_Search{
+  margin-bottom: 50px;
+}
+
+.TodoSearch::placeholder {
+  color: #A5A5A5;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 600;  
+}
+
+.TodoSearch:focus {
+  outline-color: #61DAFA;
+}
